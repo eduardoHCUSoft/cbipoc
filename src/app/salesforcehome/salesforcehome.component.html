@@ -1,0 +1,19 @@
+<h1>
+    JSFORCE Testing
+</h1>
+  <!--script src="//cdnjs.cloudflare.com/ajax/libs/jsforce/1.9.1/jsforce.min.js"></script>
+  <script>
+jsforce.browser.init({
+  clientId: '6Cel800Dbm000003ge4B888bm0000001CNJqzfI9cqC3wl4BIKywd0bppMj4ZnNWZnlptMwlRBVscRw69ltoZAdcKSAjrTI6e3wigUxYFPE',
+  redirectUri: 'https://login.salesforce.com'
+});
+jsforce.browser.on('connect', function(conn) {
+  conn.query('SELECT Id, Name FROM Account', function(err, res) {
+    if (err) { return console.error(err); }
+    console.log(res);
+  });
+});
+  </script>
+<div>
+  <button onclick="javascript:jsforce.browser.login();">Login</button>
+</div-->
